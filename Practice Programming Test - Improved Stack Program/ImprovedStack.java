@@ -1,7 +1,7 @@
 /**
  * @author Christopher Bergsveinsson
  * @version 9/25/2025
- * CSC 223 - Anwar Ahmad
+ * CSC 223 
  * Every Tuesday and  Thursday 9:35am → 11:35am
  * Programming Practice Test - ImprovedStackProgram - ImprovedStack Abstract Class
  */
@@ -19,3 +19,4 @@ public abstract class ImprovedStack<T> {
     public abstract T top() throws StackFullException;
 
 }
+
