@@ -1,7 +1,7 @@
 /**
  * @author Christopher Bergsveinsson
  * @version 9/23/2025
- * CSC 223 - Anwar Ahmad
+ * CSC 223 
  * Every Tuesday and  Thursday 9:35am → 11:35am
  * Programming Assignment 1 - Stack ADT program for Computer Science enrollment - FacultyStack Class
  */
@@ -76,3 +76,4 @@ public class FacultyStack extends Stack {
         return "";
     }
 }
+
