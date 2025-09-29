@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * @author Christopher Bergsveinsson
  * @version 9/25/2025
- * CSC 223 - Anwar Ahmad
+ * CSC 223
  * Every Tuesday and  Thursday 9:35am → 11:35am
  * Programming Practice Test - ImprovedStackProgram - ImprovedArrayBasedStack Class
  */
@@ -79,3 +79,4 @@ public class ImprovedArrayBasedStack<T> extends ImprovedStack<T> {
 
 
 }
+
