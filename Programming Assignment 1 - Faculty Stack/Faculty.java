@@ -1,7 +1,7 @@
 /**
  * @author Christopher Bergsveinsson
  * @version 9/23/2025
- * CSC 223 - Anwar Ahmad
+ * CSC 223 
  * Every Tuesday and  Thursday 9:35am → 11:35am
  * Programming Assignment 1 - Stack ADT program for Computer Science enrollment - Faculty Class
  */
@@ -47,5 +47,6 @@ public class Faculty extends Employee {
         Faculty faculty = (Faculty) obj;
         return (this.getDepartment().equals(faculty.getDepartment())) && (this.getEmployeeId() == faculty.getEmployeeId()) && (this.getName().equals(faculty.getName()));
   }
+
 
 }
