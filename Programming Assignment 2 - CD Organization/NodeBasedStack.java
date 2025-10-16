@@ -1,6 +1,6 @@
 /**
  * @author Christopher Bergsveinsson
- * @version 10/2/2025
+ * @version 10/15/2025
  * CSC 223 - Anwar Ahmad
  * Every Tuesday and  Thursday 9:35am → 11:35am
  * Programming Assignment 2 - Stack ADT (Node Based Implementation) for organizing CDs - NodeBasedStack class
@@ -57,12 +57,21 @@ public class NodeBasedStack<T> extends UnboundedStack<T>
         return size;
     }
 
+    public T top() throws StackEmptyException {
+        if(top != null) {
+            return top.getData();
+        }
+        else {
+            throw new StackEmptyException("Stack is empty!");
+        }
+    }
+
     @Override
     public String toString() {
         Node<T> currentNode = top;
         StringBuilder stackInfo = new StringBuilder();
         while(currentNode != null) {
-            stackInfo.append(currentNode.getData().toString() + "\n");
+            stackInfo.append(currentNode.getData().toString()).append("\n");
             currentNode = currentNode.getLink();
         }
         return stackInfo.toString();
